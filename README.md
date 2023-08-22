@@ -10,7 +10,7 @@ This project is a loan estimation calculator web application that helps users de
 ### Details to be followed to run automation script
 - Clone the project to local 
     git clone https://github.com/your-username/loan-estimation-calculator.git
-- Need to have code develope environment like eclipse or intellij
+- Need to have code developement environment like eclipse or intellij
 - Import project to eclipse workspace as exisiting maven project
 - Install maven plugin from eclipse market place
 - Build the maven tool
