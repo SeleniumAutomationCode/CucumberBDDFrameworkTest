@@ -32,6 +32,7 @@ This project is a loan estimation calculator web application that helps users de
 - Runner class - To execute the feature files
 - Step defintion - Created all steps
 - Feature file - created set of scenarios
+- Pom.XML file - Here manintained all the required dependencies and added surfire/compiler plugin for cmd run and integrated for CI run
   
 # Execute the test runner file from runner class
 - Go to TestRunner.class right click run as Juni test > Test will start to execute and generte the report after executed the feature file
