@@ -2,7 +2,7 @@
 
 This project is a loan estimation calculator web application that helps users determine how much they could borrow for a home loan.
 
-## Scenarios In Features file
+## Scenarios In Feature file
 
 - Calculate borrowing estimate based on user inputs.
 - Clear the estimation details and validate the field inputs
@@ -27,7 +27,7 @@ This project is a loan estimation calculator web application that helps users de
 - BaseSetup - To setup browser configuration
 - CommonUtils - CommonMethods - To Create reusable components for web element
 - CommonUtils - ValidationUtils - Created Validation methods to reuse
-- CCommonUtils - WaitUtils - Created Webdriver wait methods
+- CommonUtils - WaitUtils - Created Webdriver wait methods
 - PageObjects - Created Page class and created each web elements to reuse on step definition file
 - Runner class - To execute the feature files
 - Step defintion - Created all steps
