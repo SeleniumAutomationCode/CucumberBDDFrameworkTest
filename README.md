@@ -38,12 +38,12 @@ This project is a loan estimation calculator web application that helps users de
 - Every time it generate new results after run
 
 # Run From Common line
-Install maven check version
+- Install maven check version
 commond : mvn -v
-open common prompt project directory 
-Use below commond to execute specfic feature file
+- open common prompt project directory 
+- Use below commond to execute specfic feature file
 commond : mvn test -Dcucumber.options="src/test/resources/com/iGreenData/featuresForUI/firstTestCase.feature"
-Alternate commond to execute specific scenario 
+- Alternate commond to execute specific scenario 
 commond : mvn test -Dcucumber.options="src/test/resources/com/iGreenData/featuresForUI/firstTestCase.feature:3"
 
 ## Results
