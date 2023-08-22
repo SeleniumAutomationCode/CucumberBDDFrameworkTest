@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="11.869" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Calculating Borrowing Estimate" name="Calculate borrowing estimate for a person - Example #1.1" time="11.544">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;com.iGreenData.extentReports.reportConfig._extentReport&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "com.iGreenData.extentReports.reportConfig._extentReport" is null
+	at com.iGreenData.extentReports.reportConfig.startTestCase(reportConfig.java:46)
+	at com.iGreenData.stepDefinition.LoanEstimateStepDefinitions.launchTheURL(LoanEstimateStepDefinitions.java:38)
+	at ✽.launch the website url as https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/(file:///D:/WorkSpace/TechnicalAssessment/src/test/resources/com/iGreenData/features/firstTestCase.feature:4)
+]]>
+</failure>
+<system-out><![CDATA[
+Given launch the website url as https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/.failed
+When user should be on How much could I borrow screen.......................skipped
+When user can able to select application type as single.....................skipped
+And user can able to select number of dependants as 0.......................skipped
+And user can able to select the Property you would like to buy as home to live in.skipped
+And user enters your annual income as 80000.................................skipped
+And user enters your annual other income as 10000...........................skipped
+And user enters monthly living expenses as 500..............................skipped
+And user enters current home loan monthly repayments as 0...................skipped
+And user enters other loan monthly repayments as 100........................skipped
+And user enters Other monthly commitment as 0...............................skipped
+And user enters total credit card limits as 10000...........................skipped
+Then user click on how much I could borrow option...........................skipped
+Then validate the loan estimate amount as 426000............................skipped
+]]></system-out>
+</testcase>
+</testsuite>
